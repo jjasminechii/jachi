@@ -6,3 +6,7 @@ a:hover {
     text-decoration: underline;
     text-decoration-color: #805e3a;
 }
+
+body {
+    letter-spacing: -0.25px;
+}
