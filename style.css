@@ -10,3 +10,8 @@ a:hover {
 body {
     letter-spacing: -0.25px;
 }
+
+.post-listing-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+}

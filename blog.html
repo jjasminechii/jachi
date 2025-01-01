@@ -1,0 +1,25 @@
+---
+layout: default
+title: words, words words | jasmine chi
+description: the place where jasmine writes words, words, words.
+---
+<div>
+    <h1 class="mb-2 text-3xl font-semibold text-primary">words, words, words.</h1>
+    <p class="text-lg mb-4"> I like to write, when I'm not coding.<br>
+        I like to code, when I'm not writing.<br>
+        Sometimes, I do both at the same time.</p>
+    <hr class="my-4 border-t-primary">
+    
+    <!-- Loop through all Jekyll posts -->
+    {% for post in site.posts %}
+        <div>
+            <a href="{{ post.url | prepend: site.baseurl }}">
+                <span class="post-listing-title">{{ post.title }}</span>
+                <span class="post-listing-info text-sm text-gray-500">
+                    <span class="post-listing-date">{{ post.date | date: "%b %d, %Y" }}</span>
+                </span>
+            </a>
+        </div>
+        <hr class="my-4 border-t-primary">
+    {% endfor %}
+</div>

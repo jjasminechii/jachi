@@ -1,0 +1,28 @@
+title: jasmine's words, words, and more words.
+timezone: America/Seattle
+email: jjasminechii@gmail.com
+description: >- 
+  Just a place for me to write about three things: things I'm learning, things I'm thinking about, and things I'm doing.
+baseurl: ""
+url: "https://jjasminechii.github.io/blog"
+github_username:  jjasminechii
+markdown: kramdown
+kramdown:
+  parse_block_html: true
+# Build settings
+plugins:
+  - jekyll-paginate
+  - jekyll-seo-tag
+paginate: 5
+
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
