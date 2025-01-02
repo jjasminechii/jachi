@@ -4,31 +4,11 @@ layout: default
 
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>{{ page.title }}</title>
-    <meta name="description" content="{{ page.description }}">
-
-    <!-- icon -->
-    <link rel="icon" href="../assets/favicon.jpeg" type="image/jpeg">
-
-    <!-- font -->
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
     
-    <!-- tailwind -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.1.2/dist/tailwind.min.css">
-    
-    <!-- style -->
-    <link rel="stylesheet" href="../style.css">
-</head>
-
 <body class="bg-gray-50 dark:bg-gray-900 dark:text-white px-4 md:px-8 font-sans">
     <div class="container mx-auto">
         <!-- Post Title -->
-        <h1 class="title text-3xl font-semibold mb-4">{{ page.title }}</h1>
+        <h1 class="post-title">{{ page.title }}</h1>
 
         <!-- Post Date and Word Count -->
         <p class="text-sm text-gray-600">
@@ -48,6 +28,10 @@ layout: default
         </div>
 
         <hr class="my-4"/>
+    </div>
+    <div class="text-sm text-gray-600">
+        Thanks for making it to the end of <a href="{{ page.url }}">{{ page.title }}</a>.
+        Fun fact: my favorite color is brown, which is why I try to sneak it in everywhere (and why things are <span class="brown-text">so brown</span>).
     </div>
 </body>
 

@@ -11,7 +11,59 @@ body {
     letter-spacing: -0.25px;
 }
 
+.brown-text {
+    color: #805e3a;
+}
+
+h2, h3, h4, h5, h6 {
+    color: #805e3a;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 2.3rem;
+}
+
+h2 {
+    font-size: 1.85rem;
+}
+
+h3 {
+    font-size: 1.5rem; 
+}
+
+h4 {
+    font-size: 1.25rem;
+}
+
+h5 {
+    font-size: 1.125rem;
+}
+
+h6 {
+    font-size: 1rem;
+}
+
+h2.no-brown {
+    color: inherit;
+}
+
+.no-bold {
+    font-weight: normal;
+}
+
 .post-listing-title {
     font-size: 1.25rem;
     font-weight: bold;
+}
+
+.post-title {
+    color: #4b341b; 
+    font-weight: bold;
+}
+
+.post-container p {
+    margin-bottom: 1rem;
 }

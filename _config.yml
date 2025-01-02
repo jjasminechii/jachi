@@ -7,8 +7,6 @@ baseurl: ""
 url: "https://jjasminechii.github.io/blog"
 github_username:  jjasminechii
 markdown: kramdown
-kramdown:
-  parse_block_html: true
 # Build settings
 plugins:
   - jekyll-paginate
