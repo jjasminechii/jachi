@@ -50,10 +50,6 @@ h2.no-brown {
     color: inherit;
 }
 
-.no-bold {
-    font-weight: normal;
-}
-
 .post-listing-title {
     font-size: 1.25rem;
     font-weight: bold;
