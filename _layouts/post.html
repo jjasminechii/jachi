@@ -7,10 +7,8 @@ layout: default
     
 <body class="bg-gray-50 dark:bg-gray-900 dark:text-white px-4 md:px-8 font-sans">
     <div class="container mx-auto">
-        <!-- Post Title -->
         <h1 class="post-title">{{ page.title }}</h1>
 
-        <!-- Post Date and Word Count -->
         <p class="text-sm text-gray-600">
             {{ page.date | date: "%b %d, %Y" }} - 
             <span class="italic">{% if page.author %}{{ page.author }}{% else %}Jasmine Chi{% endif %}</span> - 
@@ -22,7 +20,6 @@ layout: default
         
         <hr class="my-4"/>
 
-        <!-- Post Content -->
         <div class="post-container mb-8">
             {{ content }}
         </div>
